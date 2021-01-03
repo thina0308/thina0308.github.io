@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Charmonman&display=swap');
+
+body {
+    background-color: darksalmon;
+    
+}
+
+#typedtext {
+    font-family: 'Charmonman', cursive;
+    font-size:25px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    display: flex;
+    letter-spacing: 3px; 
+    font-weight: bold; 
+}
+
+#img {
+    position: absolute;
+    top: 100%;
+    left: 30%;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+       background: #f88ea9;
+    }
+
+    #typedtext {
+        width: 70%;
+        left: 15%;
+    }
+
+    #img {
+        top: 91%;
+        left: 25%;
+        width: 50%;
+    }
+    
+ }
+
